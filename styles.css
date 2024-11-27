@@ -1,0 +1,98 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header .search input {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+header .icons img {
+    width: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.feed {
+    width: 100%;
+    max-width: 600px;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.post-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.post-info button {
+    background-color: #fafafa;
+    border: none;
+    cursor: pointer;
+}
+
+.caption {
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+footer .footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+}
+
+footer .footer-links a:hover {
+    text-decoration: underline;
+}
